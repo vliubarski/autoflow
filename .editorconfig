@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# NUnit2005: Consider using Assert.That(actual, Is.EqualTo(expected)) instead of Assert.AreEqual(expected, actual)
+dotnet_diagnostic.NUnit2005.severity = none
+
+# Default severity for analyzer diagnostics with category 'Assertion'
+dotnet_analyzer_diagnostic.category-Assertion.severity = none
